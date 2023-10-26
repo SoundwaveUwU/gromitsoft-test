@@ -1,0 +1,32 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tree Node
+
+# Model Form Field configuration
+form: $/soundwave/nestedtree/models/treenode/fields.yaml
+
+# Model Class name
+modelClass: Soundwave\NestedTree\Models\TreeNode
+
+# Default redirect location
+defaultRedirect: soundwave/nestedtree/treenodes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: soundwave/nestedtree/treenodes/update/:id
+    redirectClose: soundwave/nestedtree/treenodes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: soundwave/nestedtree/treenodes
+    redirectClose: soundwave/nestedtree/treenodes
+    form: $/soundwave/nestedtree/models/treenode/fields_update.yaml
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

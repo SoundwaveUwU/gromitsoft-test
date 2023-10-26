@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Наименование
+    parent_id:
+        label: Родительский узел
+        type: dropdown
+        emptyOption: -- Выберите родительский узел --

@@ -1,0 +1,10 @@
+# config_relation.yaml
+children:
+    label: Подчинённые узлы
+    view:
+        list: $/soundwave/nestedtree/models/treenode/columns.yaml
+        toolbarButtons: create|delete
+        recordsPerPage: 10
+    manage:
+        list: $/soundwave/nestedtree/models/treenode/columns.yaml
+        form: $/soundwave/nestedtree/models/treenode/fields.yaml
